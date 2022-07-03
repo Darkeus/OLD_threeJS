@@ -1,0 +1,36 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#log {
+    width: 20%;
+    height: 25%;
+    background-color: lightblue;
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    text-align: center;
+}
+
+#log>* {
+    margin: 5%;
+    border: 1px solid blue;
+}
+
+#root {
+    margin: 0;
+    overflow: hidden;
+
+}
+
+#e {
+    width: 100%;
+    height: 10%;
+    background-color: skyblue;
+    font-size: 300%;
+    position: absolute;
+}
